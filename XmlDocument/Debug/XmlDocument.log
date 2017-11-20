@@ -1,0 +1,8 @@
+﻿  XmlUtilities.cpp
+  XmlParser.cpp
+  xmlElementParts.cpp
+  XmlElement.cpp
+  XmlDocument.cpp
+  dbTokenizer.cpp
+  Generating Code...
+  XmlDocument.vcxproj -> C:\vs\project4-1\Project3_0331\Debug\XmlDocument.lib

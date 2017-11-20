@@ -1,0 +1,39 @@
+/*
+  ==============================================================
+  func.js - JavaScript library for OOD Project3 
+
+  Yipei Zhu, CSE687 - Spring 2017
+  ==============================================================
+
+Maintenance History:
+====================
+ver 1.0 : 04 April 2017
+- first release
+*/
+
+
+body {
+      margin: 20px;
+      background-color: #eee;
+      font-family: Consolas;
+      font-weight: 600;
+      font-size: 110%;
+    }
+
+.indent {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+h4  {
+    margin-bottom: 1px;
+    margin-top: 1px;
+    }
+
+
+
+
+.class1 {position:relative; margin-left:10px; margin:0 auto; padding:5px;display:block;}
+.class2 {font-size: 110%;position:relative; margin:0 auto; padding:5px;display:none;color:grey;}
+span { font-size: 90%; position:absolute; left:0px; cursor:pointer; color:red;}
+

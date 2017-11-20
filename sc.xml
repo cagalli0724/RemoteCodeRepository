@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<root>
+  <Component id="10">
+    <file name="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Child\Child.cpp">
+      <dependency fileName="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Child\Child.h">
+      </dependency>
+    </file>
+    <file name="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Child\Child.h">
+      <dependency fileName="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Child\Child.cpp">
+      </dependency>
+    </file>
+  </Component>
+  <Component id="11">
+    <file name="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Parent\Grandparent\Grandparent.h">
+      <dependency fileName="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Child\Child.h">
+      </dependency>
+      <dependency fileName="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Test.cpp">
+      </dependency>
+    </file>
+    <file name="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Test.cpp">
+      <dependency fileName="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Child2\Child2.h">
+      </dependency>
+      <dependency fileName="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Parent\Grandparent\Grandparent.h">
+      </dependency>
+      <dependency fileName="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Parent\Parent.h">
+      </dependency>
+    </file>
+    <file name="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Child2\Child2.h">
+      <dependency fileName="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Test.cpp">
+      </dependency>
+    </file>
+    <file name="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Parent\Parent.h">
+      <dependency fileName="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Child2\Child2.h">
+      </dependency>
+      <dependency fileName="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Child\Child.h">
+      </dependency>
+      <dependency fileName="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Test.cpp">
+      </dependency>
+    </file>
+  </Component>
+  <Component id="12">
+    <file name="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Parent\Parent.cpp">
+      <dependency fileName="C:\vs\project4-1\Project3_0331\Testfiles\Server\SourceCode\Child\Child.h">
+      </dependency>
+    </file>
+  </Component>
+</root>

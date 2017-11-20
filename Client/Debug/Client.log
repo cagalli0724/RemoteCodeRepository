@@ -1,0 +1,11 @@
+﻿  Sockets.cpp
+  MsgServer.cpp
+  MyClient.cpp
+  MsgClient.cpp
+  Logger.cpp
+  Cpp11-BlockingQueue.cpp
+  HttpMessage.cpp
+  FileSystem.cpp
+  Generating Code...
+  Client.vcxproj -> C:\vs\project4-1\Project3_0331\Debug\Client.exe
+  Client.vcxproj -> C:\vs\project4-1\Project3_0331\Debug\Client.pdb (Full PDB)

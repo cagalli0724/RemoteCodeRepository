@@ -1,0 +1,23 @@
+﻿  Executive.cpp
+  XmlWriter.cpp
+  Utilities.cpp
+  Tokenizer.cpp
+  StrongComp.cpp
+  Sockets.cpp
+  MyServer.cpp
+  MsgServer.cpp
+  PublishRepository.cpp
+  DateTime.cpp
+  MyClient.cpp
+  MsgClient.cpp
+  Logger.cpp
+  HttpMessage.cpp
+  FileSystem.cpp
+  FileMgr.cpp
+  DepDisplay.cpp
+  DepAnal.cpp
+  HideFuncHandle.cpp
+  CodePublisher.cpp
+  Generating Code...
+  Exec.vcxproj -> C:\vs\project4-1\Project3_0331\Debug\ServerExec.exe
+  Exec.vcxproj -> C:\vs\project4-1\Project3_0331\Debug\ServerExec.pdb (Full PDB)

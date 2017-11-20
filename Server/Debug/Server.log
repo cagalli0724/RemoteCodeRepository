@@ -1,0 +1,11 @@
+﻿  MyServer.cpp
+  MsgServer.cpp
+  Sockets.cpp
+  PublishRepository.cpp
+  MyClient.cpp
+  MsgClient.cpp
+  Logger.cpp
+  HttpMessage.cpp
+  FileSystem.cpp
+  Generating Code...
+  Server.vcxproj -> C:\vs\project4-1\Project3_0331\Debug\Server.lib

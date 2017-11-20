@@ -1,0 +1,11 @@
+﻿  MyClient.cpp
+  MockChannel.cpp
+  MsgClient.cpp
+  Utilities.cpp
+  Sockets.cpp
+  MsgServer.cpp
+  Logger.cpp
+  HttpMessage.cpp
+  FileSystem.cpp
+  Generating Code...
+  MockChannel.vcxproj -> C:\vs\project4-1\Project3_0331\Debug\MockChannel.lib

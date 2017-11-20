@@ -1,0 +1,79 @@
+<!----------------------------------------------------------------------------
+  Child.h.htm - for Project #3
+  Published 04 April 2017
+  Yipei Zhu, CSE687 - Object Oriented Design, Spring 2017
+----------------------------------------------------------------------------->
+<HTML><HEAD><LINK rel="stylesheet" href="Style.css" type="text/css" / ><script type="text/javascript" src="func.js"></script></HEAD><body>
+<h3>Child.h</h3>
+<hr / ><div class="indent"><h4>Dependencies:</h4><a href=".\Child.cpp.htm">Child\Child.cpp</a></br></div><hr / ><div class="class1"><pre><h4><span id="stateBut1" value="180" onClick="$use('div1','block1','stateBut1')">-</span>&nbsp;#ifndef CHILD_H</h4><h4><div class="class2" id="block1">{...}</div></h4><div class="class1" id="div1">#define CHILD_H
+
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;map&gt;
+
+
+<h4><span id="stateBut9" value="168" onClick="$use('div9','block9','stateBut9')">-</span>&nbsp;#ifdef INVALID</h4><h4><div class="class2" id="block9">{...}</div></h4><div class="class1" id="div9">#include ".\\Child.cpp"
+#endif</div>int globalData = 10;
+
+<h4><span id="stateBut14" value="252" onClick="$use('div14','block14','stateBut14')">-</span>&nbsp;namespace ChildTest {</h4><h4><div class="class2" id="block14">{...}</div></h4><div class="class1" id="div14">
+	
+<h4><span id="stateBut16" value="294" onClick="$use('div16','block16','stateBut16')">-</span>&nbsp;	struct element {</h4><h4><div class="class2" id="block16">{...}</div></h4><div class="class1" id="div16">
+		std::string name, type;
+		int start_line, end_line;
+		std::vector&lt;element&gt; children;
+	};</div>
+	enum Numbers { one = 1, two, three, four };
+<h4><span id="stateBut22" value="258" onClick="$use('div22','block22','stateBut22')">-</span>&nbsp;	class Child {</h4><h4><div class="class2" id="block22">{...}</div></h4><div class="class1" id="div22">
+	public:
+		Child() {};
+		~Child() {};
+<h4><span id="stateBut26" value="516" onClick="$use('div26','block26','stateBut26')">-</span>&nbsp;		void inlineMethod(int a) {</h4><h4><div class="class2" id="block26">{...}</div></h4><div class="class1" id="div26">
+			int i;
+<h4><span id="stateBut28" value="642" onClick="$use('div28','block28','stateBut28')">-</span>&nbsp;			for (i = 0; i &lt; 2; i++) {</h4><h4><div class="class2" id="block28">{...}</div></h4><div class="class1" id="div28">
+				std::cout &lt;&lt; a;
+				if (i == 1)
+<h4><span id="stateBut31" value="420" onClick="$use('div31','block31','stateBut31')">-</span>&nbsp;				{</h4><h4><div class="class2" id="block31">{...}</div></h4><div class="class1" id="div31">
+					std::cout &lt;&lt; i;
+				}</div>
+			}</div>
+<h4><span id="stateBut35" value="462" onClick="$use('div35','block35','stateBut35')">-</span>&nbsp;			if (i == 1) {</h4><h4><div class="class2" id="block35">{...}</div></h4><div class="class1" id="div35">
+				std::cout &lt;&lt; a;
+			}</div>
+			else
+<h4><span id="stateBut39" value="318" onClick="$use('div39','block39','stateBut39')">-</span>&nbsp;			{</h4><h4><div class="class2" id="block39">{...}</div></h4><div class="class1" id="div39">
+			}</div>
+		}</div>
+		int method1();
+		int method3();
+		int method2()
+<h4><span id="stateBut45" value="216" onClick="$use('div45','block45','stateBut45')">-</span>&nbsp;		{</h4><h4><div class="class2" id="block45">{...}</div></h4><div class="class1" id="div45">
+			std::cout &lt;&lt; "Hello OOD";
+			return 0;
+		}</div>
+		int method4();
+	};</div>
+	
+
+
+<h4><span id="stateBut54" value="462" onClick="$use('div54','block54','stateBut54')">-</span>&nbsp;	static void globalFunction() {</h4><h4><div class="class2" id="block54">{...}</div></h4><div class="class1" id="div54">
+		std::map&lt;int, int&gt; map = { { 1,1 },{ 2,2 } };
+<h4><span id="stateBut56" value="372" onClick="$use('div56','block56','stateBut56')">-</span>&nbsp;		while (true) {</h4><h4><div class="class2" id="block56">{...}</div></h4><div class="class1" id="div56">
+<h4><span id="stateBut57" value="318" onClick="$use('div57','block57','stateBut57')">-</span>&nbsp;			{</h4><h4><div class="class2" id="block57">{...}</div></h4><div class="class1" id="div57">
+				std::cout &lt;&lt; "\n Global Function";
+			}</div>
+			break;
+		}</div>
+	}</div>
+}</div>
+
+<h4><span id="stateBut65" value="372" onClick="$use('div65','block65','stateBut65')">-</span>&nbsp;static void globalFunction1() {</h4><h4><div class="class2" id="block65">{...}</div></h4><div class="class1" id="div65">
+	std::map&lt;int, int&gt; map = { { 1,1 },{ 2,2 } };
+<h4><span id="stateBut67" value="270" onClick="$use('div67','block67','stateBut67')">-</span>&nbsp;	while (true) {</h4><h4><div class="class2" id="block67">{...}</div></h4><div class="class1" id="div67">
+<h4><span id="stateBut68" value="216" onClick="$use('div68','block68','stateBut68')">-</span>&nbsp;		{</h4><h4><div class="class2" id="block68">{...}</div></h4><div class="class1" id="div68">
+			std::cout &lt;&lt; "\n Global Function";
+		}</div>
+		break;
+	}</div>
+}</div>
+#endif</div>
+ </pre></div></body></HTML>
